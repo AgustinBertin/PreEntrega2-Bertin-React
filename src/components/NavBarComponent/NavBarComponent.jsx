@@ -19,7 +19,7 @@ const NavBarComponent = () => {
       .catch((err) => {
         console.error(err);
       });
-  });
+  },[]);
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
